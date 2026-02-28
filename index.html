@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>みんなのレシピ</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>🍳 みんなのレシピ</h1>
+    <p class="subtitle">みんなで作る、みんなのレシピ集</p>
+  </header>
+
+  <main>
+    <section class="search-section">
+      <input type="text" id="search-input" placeholder="レシピを検索...">
+    </section>
+
+    <section class="recipe-list">
+      <h2>レシピ一覧</h2>
+      <ul id="recipe-list">
+        <!-- ==============================
+             レシピリンクをここに追加してください
+             ============================== -->
+        <li class="recipe-card">
+          <a href="recipes/curry.html">
+            <h3>🍛 チキンカレー</h3>
+            <p>スパイス香る本格チキンカレー。じっくり煮込んだ旨みがたまらない一品です。</p>
+            <span class="tag">メイン料理</span>
+            <span class="tag">30分</span>
+          </a>
+        </li>
+        <li class="recipe-card">
+          <a href="recipes/salad.html">
+            <h3>🥗 シーザーサラダ</h3>
+            <p>シャキシャキレタスと自家製ドレッシングのシーザーサラダ。簡単なのに本格的！</p>
+            <span class="tag">サラダ</span>
+            <span class="tag">15分</span>
+          </a>
+        </li>
+        <!-- ==============================
+             新しいレシピはここに追加！
+             ============================== -->
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 みんなのレシピ</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
